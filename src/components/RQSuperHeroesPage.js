@@ -13,7 +13,9 @@ function RQSuperHeroesPage() {
       // cacheTime: 5000,
       // staleTime:30000,
       refetchOnMount: false,
-      refetchOnWindowFocus: true,
+      // refetchOnWindowFocus: true,
+      refetchInterval: 2000,
+      refetchIntervalInBackground: true,
     }
   );
 
